@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97CE8FD32C3724F700FAB375 /* GeminiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE8FD22C3724F700FAB375 /* GeminiApp.swift */; };
+		97CE8FD52C3724F700FAB375 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE8FD42C3724F700FAB375 /* ContentView.swift */; };
+		97CE8FD72C3724FA00FAB375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97CE8FD62C3724FA00FAB375 /* Assets.xcassets */; };
+		97CE8FDA2C3724FA00FAB375 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97CE8FD92C3724FA00FAB375 /* Preview Assets.xcassets */; };
+		97CE8FE22C3725F200FAB375 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 97CE8FE12C3725F200FAB375 /* GoogleGenerativeAI */; };
+		97CE8FE42C37262200FAB375 /* GenerativeAI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 97CE8FE32C37262200FAB375 /* GenerativeAI-Info.plist */; };
+		97CE8FE62C37269000FAB375 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE8FE52C37269000FAB375 /* APIKey.swift */; };
+		97CE8FEF2C38193200FAB375 /* SpicyRice-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97CE8FEE2C38193200FAB375 /* SpicyRice-Regular.ttf */; };
+		97CE8FF12C38212000FAB375 /* Escola.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE8FF02C38212000FAB375 /* Escola.swift */; };
+		97CE8FF32C38218700FAB375 /* Academico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE8FF22C38218700FAB375 /* Academico.swift */; };
+		97CE8FF52C38269300FAB375 /* Festa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE8FF42C38269300FAB375 /* Festa.swift */; };
+		97CE8FF72C384CAC00FAB375 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE8FF62C384CAB00FAB375 /* Extensions.swift */; };
+		97CE8FF92C38553F00FAB375 /* SheetE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE8FF82C38553F00FAB375 /* SheetE.swift */; };
+		97CE8FFB2C38565100FAB375 /* SheetA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE8FFA2C38565000FAB375 /* SheetA.swift */; };
+		97CE8FFD2C3856FF00FAB375 /* SheetF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CE8FFC2C3856FF00FAB375 /* SheetF.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		97CE8FCF2C3724F700FAB375 /* Genius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Genius.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97CE8FD22C3724F700FAB375 /* GeminiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiApp.swift; sourceTree = "<group>"; };
+		97CE8FD42C3724F700FAB375 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		97CE8FD62C3724FA00FAB375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97CE8FD92C3724FA00FAB375 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97CE8FE32C37262200FAB375 /* GenerativeAI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GenerativeAI-Info.plist"; sourceTree = "<group>"; };
+		97CE8FE52C37269000FAB375 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		97CE8FEB2C3815E200FAB375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		97CE8FEE2C38193200FAB375 /* SpicyRice-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpicyRice-Regular.ttf"; sourceTree = "<group>"; };
+		97CE8FF02C38212000FAB375 /* Escola.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Escola.swift; sourceTree = "<group>"; };
+		97CE8FF22C38218700FAB375 /* Academico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Academico.swift; sourceTree = "<group>"; };
+		97CE8FF42C38269300FAB375 /* Festa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Festa.swift; sourceTree = "<group>"; };
+		97CE8FF62C384CAB00FAB375 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		97CE8FF82C38553F00FAB375 /* SheetE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetE.swift; sourceTree = "<group>"; };
+		97CE8FFA2C38565000FAB375 /* SheetA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetA.swift; sourceTree = "<group>"; };
+		97CE8FFC2C3856FF00FAB375 /* SheetF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetF.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97CE8FCC2C3724F700FAB375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97CE8FE22C3725F200FAB375 /* GoogleGenerativeAI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97CE8FC62C3724F700FAB375 = {
+			isa = PBXGroup;
+			children = (
+				97CE8FD12C3724F700FAB375 /* Gemini */,
+				97CE8FD02C3724F700FAB375 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97CE8FD02C3724F700FAB375 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97CE8FCF2C3724F700FAB375 /* Genius.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97CE8FD12C3724F700FAB375 /* Gemini */ = {
+			isa = PBXGroup;
+			children = (
+				97CE8FEB2C3815E200FAB375 /* Info.plist */,
+				97CE8FD22C3724F700FAB375 /* GeminiApp.swift */,
+				97CE8FE52C37269000FAB375 /* APIKey.swift */,
+				97CE8FF62C384CAB00FAB375 /* Extensions.swift */,
+				97CE8FD42C3724F700FAB375 /* ContentView.swift */,
+				97CE8FF82C38553F00FAB375 /* SheetE.swift */,
+				97CE8FFA2C38565000FAB375 /* SheetA.swift */,
+				97CE8FFC2C3856FF00FAB375 /* SheetF.swift */,
+				97CE8FF02C38212000FAB375 /* Escola.swift */,
+				97CE8FF22C38218700FAB375 /* Academico.swift */,
+				97CE8FF42C38269300FAB375 /* Festa.swift */,
+				97CE8FD62C3724FA00FAB375 /* Assets.xcassets */,
+				97CE8FE32C37262200FAB375 /* GenerativeAI-Info.plist */,
+				97CE8FEE2C38193200FAB375 /* SpicyRice-Regular.ttf */,
+				97CE8FD82C3724FA00FAB375 /* Preview Content */,
+			);
+			path = Gemini;
+			sourceTree = "<group>";
+		};
+		97CE8FD82C3724FA00FAB375 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				97CE8FD92C3724FA00FAB375 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97CE8FCE2C3724F700FAB375 /* Genius */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97CE8FDD2C3724FA00FAB375 /* Build configuration list for PBXNativeTarget "Genius" */;
+			buildPhases = (
+				97CE8FCB2C3724F700FAB375 /* Sources */,
+				97CE8FCC2C3724F700FAB375 /* Frameworks */,
+				97CE8FCD2C3724F700FAB375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Genius;
+			packageProductDependencies = (
+				97CE8FE12C3725F200FAB375 /* GoogleGenerativeAI */,
+			);
+			productName = Gemini;
+			productReference = 97CE8FCF2C3724F700FAB375 /* Genius.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97CE8FC72C3724F700FAB375 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					97CE8FCE2C3724F700FAB375 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 97CE8FCA2C3724F700FAB375 /* Build configuration list for PBXProject "Genius" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97CE8FC62C3724F700FAB375;
+			packageReferences = (
+				97CE8FE02C3725F200FAB375 /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
+			productRefGroup = 97CE8FD02C3724F700FAB375 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97CE8FCE2C3724F700FAB375 /* Genius */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97CE8FCD2C3724F700FAB375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97CE8FDA2C3724FA00FAB375 /* Preview Assets.xcassets in Resources */,
+				97CE8FD72C3724FA00FAB375 /* Assets.xcassets in Resources */,
+				97CE8FE42C37262200FAB375 /* GenerativeAI-Info.plist in Resources */,
+				97CE8FEF2C38193200FAB375 /* SpicyRice-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97CE8FCB2C3724F700FAB375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97CE8FD52C3724F700FAB375 /* ContentView.swift in Sources */,
+				97CE8FF52C38269300FAB375 /* Festa.swift in Sources */,
+				97CE8FE62C37269000FAB375 /* APIKey.swift in Sources */,
+				97CE8FF12C38212000FAB375 /* Escola.swift in Sources */,
+				97CE8FFD2C3856FF00FAB375 /* SheetF.swift in Sources */,
+				97CE8FD32C3724F700FAB375 /* GeminiApp.swift in Sources */,
+				97CE8FF92C38553F00FAB375 /* SheetE.swift in Sources */,
+				97CE8FF32C38218700FAB375 /* Academico.swift in Sources */,
+				97CE8FFB2C38565100FAB375 /* SheetA.swift in Sources */,
+				97CE8FF72C384CAC00FAB375 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		97CE8FDB2C3724FA00FAB375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97CE8FDC2C3724FA00FAB375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97CE8FDE2C3724FA00FAB375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gemini/Preview Content\"";
+				DEVELOPMENT_TEAM = 42VNG6NHT9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gemini/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eldorado.org.Gemini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97CE8FDF2C3724FA00FAB375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gemini/Preview Content\"";
+				DEVELOPMENT_TEAM = 42VNG6NHT9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gemini/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eldorado.org.Gemini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97CE8FCA2C3724F700FAB375 /* Build configuration list for PBXProject "Genius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97CE8FDB2C3724FA00FAB375 /* Debug */,
+				97CE8FDC2C3724FA00FAB375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97CE8FDD2C3724FA00FAB375 /* Build configuration list for PBXNativeTarget "Genius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97CE8FDE2C3724FA00FAB375 /* Debug */,
+				97CE8FDF2C3724FA00FAB375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		97CE8FE02C3725F200FAB375 /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		97CE8FE12C3725F200FAB375 /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97CE8FE02C3725F200FAB375 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 97CE8FC72C3724F700FAB375 /* Project object */;
+}
